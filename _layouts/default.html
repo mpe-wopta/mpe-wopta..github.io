@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <img src="Banner.png" style="width: 100%; height: auto;" alt="Banner">
+</header>
+<main>
+    {{ content }}
+</main>
+<footer>
+    <p>
+        <a href="https://github.com/mpe-wopta/mpe-wopta.github.io/edit/main/{{ page.path }}">
+            <i class="fab fa-github"></i> Improve this page on GitHub
+        </a>
+    </p>
+</footer>
+</body>
+</html>

@@ -1,11 +1,15 @@
-<img src="Banner.png" style="width: 100%; height: auto;" alt="Banner">
+---
+layout: default
+title: Home
+---
 
 # Overview
 
 This is our in-progress standalone website. See also:
 
-* Our Givebacks (and original) site: https://mountp0303.givebacks.com/
-* Facebook: https://www.facebook.com/groups/mtpleasantpta
+[Our Givebacks (and original) site](https://mountp0303.givebacks.com/)
+
+[Facebook](https://www.facebook.com/groups/mtpleasantpta)
 
 ## Calendar
 
